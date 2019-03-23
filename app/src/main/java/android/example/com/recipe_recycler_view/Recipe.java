@@ -1,4 +1,4 @@
-package work.nbcc.recipes;
+package android.example.com.recipe_recycler_view;
 
 public class Recipe {
     public Recipe(String name, String description, String image, String ingredients, String directions) {

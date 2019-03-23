@@ -1,4 +1,4 @@
-package work.nbcc.recipes;
+package android.example.com.recipe_recycler_view;
 
 
 import java.util.LinkedList;
@@ -7,7 +7,9 @@ public class DataProvider {
 
     static LinkedList<Recipe> recipes;
 
-    static LinkedList<Recipe> getRecipes() {return recipes;}
+    static LinkedList<Recipe> getRecipes() {
+        return recipes;
+    }
 
 
     static {
@@ -148,5 +150,4 @@ public class DataProvider {
                 "\n4.\n Preheat the oven to 350 degrees F. Once it is ready, put the dish in the oven and bake for 50 minutes, or until puffy and set. Remove, and let stand 10 minutes before serving. This is absolutely lovely when served with some fresh whipped cream.";
         recipes.add(new Recipe(name, description, image, ingredients, directions));
     }
-
 }
