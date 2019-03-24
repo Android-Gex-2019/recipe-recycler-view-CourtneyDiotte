@@ -1,4 +1,7 @@
 <resources>
-    <string name="app_name">recipe-recycler-view</string>
+    <string name="app_name">Recipes</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_recipe">RecipeActivity</string>
+    <string name="ingredients_title">Ingredients</string>
+    <string name="directions_title">Directions</string>
 </resources>
